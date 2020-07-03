@@ -1,0 +1,31 @@
+All the benchmark data sets come from three sources: UCI machine learning repository, Kaggle, and data set used in [1]. 
+
+1. (Wine) From UCI. Three classes. Use 2 classes data for binary classification. class 1 59, class 2 71, class 3 48.
+
+2. (Glass) From UCI. Original data has 214 instances including 163 window glass and 51 non-window glass. The window glass samples include 87 floated processed type (70 building windows and 17 vehicle windows) and 76 non-float processed type (all building windows). The non-window glasses samples include 13 containers, 9 tablewares and 29 headlamps. The total 214 samples are used for binary classification (window vs non-window) in experiments.
+    
+3. (Liver Disorders) From UCI. Original data set is binary. Duplicated data points (indices): 84 and 86, 141 and 318, 143 and 150, 170 and 176. Data points No.84, 141, 143, 170 are dropped.
+    
+4. (Wholesale) From UCI.
+    
+5. (Tax Payer) From UCI. Original data set has 1004 samples with three classes: Democrats, Republican, and Independent. We use first two classes for binary classification in this paper.
+    
+6. (SVMguide1) From [1]. Original data set was partitioned into a training set with 3089 samples and a testing set with 4000 samples. We use all the data in the training set for binary classification in this paper.
+    
+7. (Brain Tumor) From Kaggle. 
+    
+8. (Car Evaluation) From UCI. Original data set has 1728 samples with 4 classes:  unacc 1210, acc 384, good 69 and v-good 65. The first two classes of data are used for binary classification in this paper.
+    
+9. (Cardiotocography) From UCI. Original data set has 2126 data with 3 classes: normal 1655, suspect 295 and pathological 176. In this paper, we group the suspect class and the pathological class as one class, and use it for binary classification with the normal class.
+    
+10. (Abalone) From UCI. The original data has 4177 samples and with 29 classes. The data set was treated as a 3-class classification problem in [2] with grouping class 1-8 as first class, class 9-10 as the second class and class 11 on as the third class. In this paper, we use part of the data set for binary classification by regrouping class 1-8 as first class, and class 9-10 as the second class. 
+    
+11. (SVMguide1) From [1]. Original data set was partitioned into a training set with 1243 samples and a testing set with 41 samples. We use all the data in the training set for binary classification in this paper.)
+
+
+
+
+
+[1]. Hsu, C.-W., Chang, C.-C., Lin, C.-J. et al. (2003). A practical guide to support vector classification.
+[2]. Clark, D., Schreter, Z., & Adams, A. (1996). A quantitative comparison of dystal and backpropagation. In Australian Conference on Neural Networks.
+    
