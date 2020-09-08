@@ -1,0 +1,22 @@
+Credit Data Information.
+#--------------------------
+
+
+Data set: CCC
+Features: the amounts of recent corporations (deals in recent three years), blacklists, good credit records, bad credit records (three types: poor quality of products, dishonesty and poor delivery). 
+
+#-----------------------------------------------
+
+Data set: CCA
+Features: unknown.
+
+#-----------------------------------------------
+
+Data set: GCD
+Features: checking account status, duration in month, credit history, purpose of loan, credit amount, savings account or bonds, present employment period, installment rate in percentage of disposable income, marriage status and sex, other debtors or guarantors, current residency period, property information, age, other installment plans, housing, number of existing credit at this bank, job, number of people being liable to provide maintenance for, has telephone or not, foreign worker.
+
+#-----------------------------------------------
+
+Data set: JAP
+Features: job, loan purpose, sex, marriage status, current residency problematic region, age, deposit amount, monthly loan payment, numbers of months to pay off, current employment period.
+
